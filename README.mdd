@@ -1,0 +1,124 @@
+# 🤖 RAG Community Matchmaker
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.116-green)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-yellow)
+![Pinecone](https://img.shields.io/badge/Pinecone-VectorDB-blueviolet)
+![Groq](https://img.shields.io/badge/Groq-LLM-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+An AI-powered teammate recommendation platform that uses **Retrieval-Augmented Generation (RAG)** to match students, hackathon participants, and professionals based on skills, interests, and experience.
+
+---
+
+## 🚀 Features
+
+- 🔍 Semantic teammate search using vector embeddings
+- 🤖 AI-generated teammate recommendations
+- ⚡ FastAPI backend
+- 🌲 Pinecone vector database
+- 🦜 LangChain RAG pipeline
+- 🧠 Sentence Transformer embeddings
+- 💬 Groq Llama 3 integration
+- 🎨 Streamlit frontend
+- 📄 Swagger API Documentation
+
+---
+
+## 🏗️ Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Backend | FastAPI |
+| AI Framework | LangChain |
+| Embeddings | Sentence Transformers |
+| Vector Database | Pinecone |
+| LLM | Groq Llama 3 |
+| Frontend | Streamlit |
+| Language | Python 3.11 |
+
+---
+
+## 📂 Project Structure
+
+```text
+RAG-Community-Matchmaker
+│
+├── backend
+│   ├── app
+│   ├── requirements.txt
+│   └── .env.example
+│
+├── frontend
+│
+├── data
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/RAG-Community-Matchmaker.git
+
+cd RAG-Community-Matchmaker
+
+python -m venv .venv
+
+source .venv/bin/activate
+```
+
+Install dependencies
+
+```bash
+pip install -r backend/requirements.txt
+```
+
+Run API
+
+```bash
+python backend/run.py
+```
+
+Open
+
+```
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## 🧠 How it Works
+
+1. User submits profile
+2. Profile converted into vector embedding
+3. Stored inside Pinecone
+4. User requests teammate recommendations
+5. Similar profiles retrieved
+6. LangChain + Groq generate the best matches
+
+---
+
+## 📈 Future Improvements
+
+- OAuth Login
+- Chat between teammates
+- Resume upload
+- Skill gap analysis
+- Project recommendations
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**
+
+LinkedIn
+
+GitHub
+
+Email
